@@ -512,7 +512,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4ac2f3c4-4f17-4f45-905b-c64324762545
+  uuid: a24be388-f3de-4ec0-9c3f-136dc4406b7b
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国05
@@ -522,7 +522,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4ac2f3c4-4f17-4f45-905b-c64324762545
+  uuid: a24be388-f3de-4ec0-9c3f-136dc4406b7b
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸美国06
@@ -532,7 +532,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4ac2f3c4-4f17-4f45-905b-c64324762545
+  uuid: a24be388-f3de-4ec0-9c3f-136dc4406b7b
 - alterId: 0
   cipher: auto
   name: 14|美国 CloudFlare节点
@@ -2543,6 +2543,19 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳@WangCai_8
 - alterId: 0
   cipher: auto
+  name: 16|🇺🇸|US|美国|@wxgqlfx|51
+  network: ws
+  port: 80
+  server: 172.67.166.192
+  tls: false
+  type: vmess
+  uuid: cd1db809-2de0-409c-aef5-861e95eff53e
+  ws-opts:
+    headers:
+      Host: ua1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 16|美国(yudou66.com 玉豆免费节点)_24
   network: ws
   port: 80
@@ -2690,16 +2703,6 @@ proxies:
     headers:
       Host: a.prapt4.ir
     path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 16|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
   name: 16|US_ 7022 9
